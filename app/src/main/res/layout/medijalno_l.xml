@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pozadina"
+    android:layout_height="match_parent"
+    tools:context=".medijalno_l">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/orange_juice"
+            android:textStyle="bold"
+            android:text="Odaberite sliku"/>
+        //Prva linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //VILA
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/vila"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/vila_round"
+                    android:onClick="Vila"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="VILA"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            //PČELA
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/pcela"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/pcela_round"
+                    android:onClick="Pcela"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="PČELA"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        //Druga linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //HLAČE
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/hlace"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/hlace_round"
+                    android:onClick="Hlace"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="HLAČE"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            //SLON
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/slon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/slon_round"
+                    android:onClick="Slon"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="SLON"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        //Treća linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //STOLICA
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/stolica"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/stolica_round"
+                    android:onClick="Stolica"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="STOLICA"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            //ŠALICA
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/salica"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/salica_round"
+                    android:onClick="Salica"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="ŠALICA"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        //Četvrta linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //BALON
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/balon"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/balon_round"
+                    android:onClick="Balon"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="BALON"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+             //NAOČALE
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/naocale"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/naocale_round"
+                    android:onClick="Naocale"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="160dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="NAOČALE"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

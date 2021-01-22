@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/pozadina"
+    android:layout_height="match_parent"
+    tools:context=".inicijalno_l">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:textSize="40dp"
+            android:textColor="@color/black"
+            android:fontFamily="@font/orange_juice"
+            android:textStyle="bold"
+            android:text="Odaberite sliku"/>
+        //Prva linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //LAV
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/lav"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/lav_round"
+                    android:onClick="Lav"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LAV"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            //LED
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/led"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/led_round"
+                    android:onClick="Led"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LED"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        //Druga linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="120dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //LABUD
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/labud"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/labud_round"
+                    android:onClick="Labud"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LABUD"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            //LOPTA
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/lopta"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/lopta_round"
+                    android:onClick="Lopta"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LOPTA"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        //Treća linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //LUBENICA
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/lubenica"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/lubenica_round"
+                    android:onClick="Lubenica"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="150dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LUBENICA"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+
+            //LIST
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="120dp">
+
+                <Button
+                    android:id="@+id/list"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/list_round"
+                    android:onClick="List"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LIST"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+        //Četvrta linija
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="520dp"
+            android:orientation="horizontal"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //LEPTIR
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/leptir"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/leptir_round"
+                    android:onClick="Leptir"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LEPTIR"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+            </LinearLayout>
+
+             //LISICA
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="140dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <Button
+                    android:id="@+id/lisica"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    app:backgroundTint="@null"
+                    android:background="@drawable/lisica_round"
+                    android:onClick="Lisica"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="-1dp"/>
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="42dp"
+                    android:textAlignment="center"
+                    android:text="LISICA"
+                    android:textSize="35dp"
+                    android:fontFamily="@font/orange_juice"
+                    android:textStyle="bold"
+                    android:textColor="@color/black"/>
+
+            </LinearLayout>
+
+
+
+            </LinearLayout>
+
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

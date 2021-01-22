@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/table"
+    android:layout_height="match_parent"
+    tools:context=".slova">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:textSize="60dp"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:text="Odaberi slovo"
+            android:fontFamily="@font/orange_juice"/>
+
+        //Prvi red
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="90dp"
+            android:verticalScrollbarPosition="defaultPosition">
+
+            //SLOVO L
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/btnl"
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:text="L"
+                    android:fontFamily="@font/orange_juice"
+                    android:textSize="80dp"
+                    android:textColor="#FF0000"
+                    android:textAlignment="center"/>
+
+
+
+            </LinearLayout>
+
+            //SLOVO K
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/btnk"
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:text="K"
+                    android:fontFamily="@font/orange_juice"
+                    android:textSize="80dp"
+                    android:textColor="#FF8C00"
+                    android:textAlignment="center"/>
+
+
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+        //Drugi red
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="210dp"
+            android:verticalScrollbarPosition="defaultPosition">
+
+
+
+            //SLOVO Č
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/btncc"
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:text="Č"
+                    android:fontFamily="@font/orange_juice"
+                    android:textSize="80dp"
+                    android:textColor="#008000"
+                    android:textAlignment="center"/>
+
+
+
+            </LinearLayout>
+
+            //SLOVO Ć
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/btnc"
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:text="Ć"
+                    android:fontFamily="@font/orange_juice"
+                    android:textSize="80dp"
+                    android:textColor="#008080"
+                    android:textAlignment="center"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        //Treći red
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginTop="320dp"
+            android:verticalScrollbarPosition="defaultPosition">
+
+
+
+            //SLOVO R
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/btnr"
+                    android:layout_width="50dp"
+                    android:layout_height="90dp"
+                    android:text="R"
+                    android:fontFamily="@font/orange_juice"
+                    android:textSize="80dp"
+                    android:textColor="#0000CD"
+                    android:textAlignment="center"/>
+
+
+
+            </LinearLayout>
+
+            //SLOVO LJ
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="90dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:layout_marginTop="50dp">
+
+                <TextView
+                    android:id="@+id/btnlj"
+                    android:layout_width="100dp"
+                    android:layout_height="90dp"
+                    android:text="LJ"
+                    android:fontFamily="@font/orange_juice"
+                    android:textSize="80dp"
+                    android:textColor="#4B0082"
+                    android:textAlignment="center"/>
+
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="280dp"
+    android:layout_height="350dp"
+    android:background="#66000000"
+    android:layout_gravity="center">
+
+    <!-- zatvaranje dialoga -->
+
+    <TextView
+        android:layout_width="20sp"
+        android:layout_height="20dp"
+        android:id="@+id/txtclose"
+        android:background="#ff3300"
+        android:layout_gravity="end"
+        tools:text="X"/>
+
+    <!-- za naslov -->
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="40dp"
+            android:textColor="#fff"
+            android:textStyle="bold"
+            android:text="SLOVO L"/>
+
+    </LinearLayout>
+
+    <!-- za sliku -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"/>
+
+    <ImageView
+        android:layout_width="120dp"
+        android:layout_height="85dp"
+        android:background="@drawable/ll"
+        android:layout_gravity="center"/>
+
+</LinearLayout>
